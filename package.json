@@ -1,0 +1,28 @@
+{
+  "name": "vite-ssg-seo-sitemap",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:romanlamsal/vite-ssg-seo-sitemap.git",
+  "author": "Roman Lamsal <roman@notch.so>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --noEmit --watch",
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@lamsal-de/eslint-config": "^1.0.7",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@types/node": "^18.7.21",
+    "eslint": "8.22.0",
+    "typescript": "^4.8.3",
+    "vue": "^3.0.0",
+    "vue-router": "^4.1.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  }
+}
